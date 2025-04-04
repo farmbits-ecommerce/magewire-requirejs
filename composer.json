@@ -1,24 +1,23 @@
 {
-  "name": "magewirephp/magewire-requirejs",
-  "description": "A Magento 2 module which makes Magewire compatible with RequireJS based themes",
-  "version": "1.1.0",
-  "type": "magento2-module",
-  "require": {
-    "magewirephp/magewire": "^1.0"
-  },
-  "authors": [
-    {
-      "name": "Willem Poortman",
-      "email": "magewirephp@wpoortman.nl"
-    }
-  ],
-  "license": "MIT",
-  "autoload": {
-    "files": [
-      "src/registration.php"
+    "name": "magewirephp/magewire-requirejs",
+    "description": "A Magento 2 module which makes Magewire compatible with RequireJS based themes",
+    "type": "magento2-module",
+    "require": {
+        "magewirephp/magewire": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Willem Poortman",
+            "email": "magewirephp@wpoortman.nl"
+        }
     ],
-    "psr-4": {
-      "Magewirephp\\MagewireRequireJS\\": "src/"
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "Magewirephp\\MagewireRequireJS\\": "src/"
+        }
     }
-  }
 }
